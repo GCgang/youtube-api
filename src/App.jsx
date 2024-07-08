@@ -1,8 +1,12 @@
-import "./App.css";
-import { RouterProvider } from "react-router-dom";
-import { router } from "./Router/Router";
-
-function App() {
-  return <RouterProvider router={router} />;
+import Header from "../src/components/Header/Header";
+import { Outlet } from "react-router-dom";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+export default function App() {
+  return (
+    <>
+      <Header></Header>
+      <Outlet />
+      <ReactQueryDevtools initialIsOpen={true} />
+    </>
+  );
 }
-export default App;

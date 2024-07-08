@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <>
       <div>Home</div>
-      <Link to={`/vidieoId`}>video details</Link>
+      <Link to={`/vidieo/:id`}>video details</Link>
     </>
   );
 }

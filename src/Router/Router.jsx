@@ -1,18 +1,18 @@
 import { createBrowserRouter } from "react-router-dom";
-import Root from "../pages/Root/Root";
+import App from "../App";
 import Vidieos from "../pages/Vidieos/Vidieos";
 import VidieoDetail from "../pages/VidieoDetail/VidieoDetail";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
     children: [
       {
         path: "/",
         element: <Vidieos />,
       },
       {
-        path: ":vidieoId",
+        path: "vidieo/:id",
         element: <VidieoDetail />,
       },
     ],
