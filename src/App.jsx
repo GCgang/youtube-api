@@ -4,7 +4,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 export default function App() {
   return (
     <>
-      <Header></Header>
+      <Header />
       <Outlet />
       <ReactQueryDevtools initialIsOpen={true} />
     </>
