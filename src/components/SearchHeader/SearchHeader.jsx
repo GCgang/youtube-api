@@ -1,10 +1,13 @@
 import { useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 export default function SearchHeader() {
   const [text, setText] = useState("");
   const inputRef = useRef(null);
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    setText("");
+    navigate(`/videos/${e.target.value}`);
     inputRef.current.focus();
   };
   const handleChange = (e) => {
