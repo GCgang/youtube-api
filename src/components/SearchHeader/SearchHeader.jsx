@@ -1,29 +1,36 @@
-import { useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
-export default function SearchHeader() {
-  const [text, setText] = useState("");
-  const inputRef = useRef(null);
-  const navigate = useNavigate();
+import { useEffect, useState } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { BsYoutube, BsSearch } from "react-icons/bs";
 
+export default function SearchHeader() {
+  const { keyword } = useParams();
+  const [text, setText] = useState("");
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate(`/videos/${e.target.value}`);
-    inputRef.current.focus();
+    navigate(`/videos/${text}`);
   };
-  const handleChange = (e) => {
-    setText(e.target.value);
-  };
+
+  useEffect(() => setText(keyword || ""), [keyword]);
+
   return (
     <header>
+      <div>
+        <Link to="/">
+          <BsYoutube />
+          <h1>Youtube</h1>
+        </Link>
+      </div>
       <form onSubmit={handleSubmit}>
         <input
-          ref={inputRef}
           type="text"
           placeholder="Search..."
           value={text}
-          onChange={handleChange}
+          onChange={(e) => setText(e.target.value)}
         />
-        <button>search</button>
+        <button>
+          <BsSearch />
+        </button>
       </form>
     </header>
   );
