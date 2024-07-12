@@ -1,20 +1,18 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Vidieos from "../pages/Vidieos/Vidieos";
-import VidieoDetail from "../pages/VidieoDetail/VidieoDetail";
+import Videos from "../pages/Videos/Videos";
+import VideoDetail from "../pages/VideoDetail/VideoDetail";
+import NotFound from "../pages/NotFound/NotFound";
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <NotFound />,
     children: [
-      {
-        path: "/",
-        element: <Vidieos />,
-      },
-      {
-        path: "vidieo/:id",
-        element: <VidieoDetail />,
-      },
+      { index: true, element: <Videos /> },
+      { path: "/videos", element: <Videos /> },
+      { path: "/videos/:keyword", element: <Videos /> },
+      { path: "videos/watch/:id", element: <VideoDetail /> },
     ],
   },
 ]);
