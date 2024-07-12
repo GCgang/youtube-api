@@ -4,7 +4,7 @@ import { fetchHotTrendVideos } from "../../utils/api";
 export default function Home() {
   const { keyword } = useParams();
   const { isLoading, data } = useQuery({
-    queryKey: ["videos"],
+    queryKey: ["videos", keyword],
     queryFn: fetchHotTrendVideos,
   });
   const navigate = useNavigate();

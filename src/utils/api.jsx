@@ -3,9 +3,9 @@ const API_KEY = "AIzaSyBXXcD6jn9in31R4COHKsrUdNr8KYX4UDE";
 export const getHotTrendVideosUrl = () =>
   `${BASE_URL}search?part=snippet&maxResults=25&q=Kendrick Lamar&key=${API_KEY}`;
 export async function fetchHotTrendVideos() {
-  const response = await fetch("../../mockData/HotTrendVideo.json");
+  const response = await fetch("../../mockData/hotTrend.json");
   if (!response?.ok) {
-    throw new Error("Faild get");
+    throw new Error("Faild");
   }
   const json = await response.json();
   return json;
