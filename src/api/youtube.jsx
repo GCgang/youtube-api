@@ -20,7 +20,10 @@ export class Youtube {
         q: keyword,
       },
     });
-    return response.data.items;
+    return response.data.items.map((item) => ({
+      ...item,
+      id: item.id.videoId,
+    }));
   }
   async #HotTrend() {
     const response = await this.apiClient.get("videos", {
