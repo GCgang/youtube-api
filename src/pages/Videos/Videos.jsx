@@ -1,25 +1,29 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
-import { fetchHotTrendVideos } from "../../utils/api";
+import { FakeYoutube } from "../../api/fakeYoutube";
 import VideoCard from "../../components/VideoCard/VideoCard";
 export default function Home() {
   const { keyword } = useParams();
-  const { isLoading, data } = useQuery({
+  const youtube = new FakeYoutube();
+  const {
+    isLoading,
+    error,
+    data: videos,
+  } = useQuery({
     queryKey: ["videos", keyword],
-    queryFn: fetchHotTrendVideos,
+    queryFn: () => youtube.search(keyword),
   });
-  const videos = data?.items;
+  console.log(videos);
+
   return (
     <>
-      {isLoading ? (
-        <div>Loading...</div>
-      ) : (
-        <ul>
-          {videos.map((video) => (
-            <VideoCard key={video.id} video={video} />
-          ))}
-        </ul>
-      )}
+      {isLoading && <div>Loading...</div>}
+      {error && <div>Error...</div>}
+      <ul>
+        {videos?.map((video) => (
+          <VideoCard key={video.id} video={video} />
+        ))}
+      </ul>
     </>
   );
 }
