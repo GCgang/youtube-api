@@ -8,13 +8,14 @@ export class FakeYoutube {
 
   async #ListByKeyword() {
     const response = await axios.get("/mockData/search.json");
-    console.log(response.data);
-    return response.data.items;
+    return response.data.items.map((item) => ({
+      ...item,
+      id: item.id.videoId,
+    }));
   }
 
   async #HotTrend() {
     const response = await axios.get("/mockData/hotTrend.json");
-    console.log(response.data);
     return response.data.items;
   }
 }

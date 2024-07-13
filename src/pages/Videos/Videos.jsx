@@ -1,22 +1,20 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
-import { FakeYoutube } from "../../api/fakeYoutube";
-import { Youtube } from "../../api/youtube";
 import VideoCard from "../../components/VideoCard/VideoCard";
+import { useYoutubeApi } from "../../context/YoutubeApiContext";
 export default function Home() {
   const { keyword } = useParams();
-  // const youtube = new FakeYoutube();
-  const youtube = new Youtube();
-
+  const { youtube } = useYoutubeApi();
   const {
     isLoading,
     error,
     data: videos,
   } = useQuery({
     queryKey: ["videos", keyword],
-    queryFn: () => youtube.search(keyword),
+    queryFn: () => {
+      return youtube.search(keyword);
+    },
   });
-  console.log(videos);
 
   return (
     <>
