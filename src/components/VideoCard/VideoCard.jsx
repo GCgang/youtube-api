@@ -5,7 +5,11 @@ export default function VideoCard({ video }) {
   const navigate = useNavigate();
 
   return (
-    <li onClick={() => navigate(`/videos/watch/${video.id}`)}>
+    <li
+      onClick={() =>
+        navigate(`/videos/watch/${video.id}`, { state: { video } })
+      }
+    >
       <img src={thumbnails.default.url} alt="thumbnails" />
       <h3>{title}</h3>
       <p>{channelTitle}</p>
