@@ -6,6 +6,20 @@ export default class Youtube {
   async search(keyword) {
     return keyword ? this.#ListByKeyword(keyword) : this.#HotTrend();
   }
+
+  async searchByChannelId(channelId) {
+    const response = await this.apiClient.playlist({
+      params: {
+        part: "snippet",
+        channelId,
+        maxResults: 25,
+        order: "date",
+        type: "video",
+      },
+    });
+    return response.data.items;
+  }
+
   async #ListByKeyword(keyword) {
     const response = await this.apiClient.search({
       params: {
