@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "WYzgmvp2C3A0VMKwz3YTBpFPt0M",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 64,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ab36-RKHNQ_vwnwXvdEHPyMrIjk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H58vbez_m4E"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-04T23:00:09Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - Not Like Us",
+        "description": "Kendrick Lamar “Not Like Us” Directed by Dave Free & Kendrick Lamar Production Company: pgLang / project3 Executive ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H58vbez_m4E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H58vbez_m4E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H58vbez_m4E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-04T23:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XSwcNInyqzfrkjxJWsLpXbMLV_k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SZcupt0Yqaw"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-02T07:20:53Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - Rich Spirit + N95 (Live From Saturday Night Live)",
+        "description": "Kendrick Lamar - Rich Spirit + N95 (Live on SNL) Kendrick Lamar “Mr. Morale & The Big Steppers” is available now: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SZcupt0Yqaw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SZcupt0Yqaw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SZcupt0Yqaw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-02T07:20:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ahmjZ5DxSHh-rWRb9Yl8gKjSxRQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_IuAIp46xC4"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-02T07:14:47Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - Father Time ft. Sampha (Live on SNL)",
+        "description": "Kendrick Lamar – Father Time ft. Sampha (Live on SNL) Kendrick Lamar “Mr. Morale & The Big Steppers” is available now: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_IuAIp46xC4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_IuAIp46xC4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_IuAIp46xC4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-02T07:14:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uZ-3s04IEU2dxVChOzeTOKZvvfs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zI383uEwA6Q"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-14T19:00:16Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - N95",
+        "description": "Kendrick Lamar “N95\" Directed by Dave Free & Kendrick Lamar Production Company: pgLang/project3 & Freenjoy pgLang ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zI383uEwA6Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zI383uEwA6Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zI383uEwA6Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-14T19:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qLRM8TQH3S-AdJc8gPslx_3q23Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uAPUkgeiFVY"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-08T23:58:06Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - The Heart Part 5",
+        "description": "The Heart Part 5 is available now: https://KendrickLamar.lnk.to/Heart Directed by Dave Free & Kendrick Lamar Production ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uAPUkgeiFVY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uAPUkgeiFVY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uAPUkgeiFVY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-08T23:58:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hdhzQsNJjrcP_oBLWAXZokzwgAY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JQbjS0_ZfJ0"
+      },
+      "snippet": {
+        "publishedAt": "2018-02-06T17:00:02Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar, SZA - All The Stars",
+        "description": "Black Panther The Album Music From And Inspired By available on all digital platforms & in stores now ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JQbjS0_ZfJ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JQbjS0_ZfJ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JQbjS0_ZfJ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-02-06T17:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Z2k6xOkdk9y2yiUQ2u3lQXF1B8U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "K5xERXE7pxI"
+      },
+      "snippet": {
+        "publishedAt": "2018-02-02T05:00:01Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "The Weeknd, Kendrick Lamar - Pray For Me (Audio)",
+        "description": "Black Panther The Album out now http://smarturl.it/BlackPantherAlbum Music video by The Weeknd, Kendrick Lamar performing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K5xERXE7pxI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K5xERXE7pxI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K5xERXE7pxI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-02-02T05:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bAAQrZtN0c1gYb9fM_NcLHE5iX8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GfCqMv--ncA"
+      },
+      "snippet": {
+        "publishedAt": "2018-01-04T13:00:03Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar, SZA - All The Stars",
+        "description": "Black Panther The Album out now http://smarturl.it/BlackPantherAlbum http://vevo.ly/3WpVJn.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GfCqMv--ncA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GfCqMv--ncA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GfCqMv--ncA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-01-04T13:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6ECxx-BBxSoN2sXkLFtSvY1ZzZU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ox7RsX1Ee34"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-22T05:00:05Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - LOVE. ft. Zacari",
+        "description": "DAMN. available now http://smarturl.it/DAMN Video Director: Dave Meyers and the little homies Video Producer: Anthony 'Top ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ox7RsX1Ee34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ox7RsX1Ee34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ox7RsX1Ee34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-12-22T05:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QSlucbQr83OXnamxR3HLklQ7gTM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bhCfQ8BGow8"
+      },
+      "snippet": {
+        "publishedAt": "2017-09-01T15:33:50Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - DNA./HUMBLE.",
+        "description": "Kendrick Lamar performs DNA. and HUMBLE. on the 2017 MTV Video Music Awards, courtesy of MTV. DAMN. available now ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bhCfQ8BGow8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bhCfQ8BGow8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bhCfQ8BGow8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-09-01T15:33:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "G9li_J-Lh8SsJNBtOx3yyuYDfZA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Dlh-dzB2U4Y"
+      },
+      "snippet": {
+        "publishedAt": "2017-07-28T18:00:00Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - LOYALTY. ft. Rihanna",
+        "description": "DAMN. available now http://smarturl.it/DAMN Best of Kendrick Lamar https://goo.gl/PTr3FF Kendrick Lamar - Damn ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Dlh-dzB2U4Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Dlh-dzB2U4Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Dlh-dzB2U4Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-07-28T18:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7VUl36G1b1UtgraA2GYxTYGwBmM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "glaG64Ao7sM"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-27T19:00:05Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - ELEMENT.",
+        "description": "DAMN. available now http://smarturl.it/DAMN Director: Jonas Lindstroem & the little homies Producer: Anthony “Top Dawg” Tiffith, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/glaG64Ao7sM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/glaG64Ao7sM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/glaG64Ao7sM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-06-27T19:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZXe2b3vUbHrQKKb6moU1BEg3Ofo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NLZRYQMLDW4"
+      },
+      "snippet": {
+        "publishedAt": "2017-04-18T19:00:02Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - DNA.",
+        "description": "DAMN. available now http://smarturl.it/DAMN Dir: Nabil & the little homies Producer: Anthony “Top Dawg” Tiffith, Dave Free, Angel ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NLZRYQMLDW4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NLZRYQMLDW4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NLZRYQMLDW4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-04-18T19:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7HdqCuEwnjnB3XN0HSx9PVjX69E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tvTRZJ-4EyI"
+      },
+      "snippet": {
+        "publishedAt": "2017-03-30T23:00:06Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - HUMBLE.",
+        "description": "Kendrick Lamar DAMN. Available now http://smarturl.it/DAMN Prod: Anthony \"Top Dawg\" Tiffith, Dave Free Nathan K. Scherrer, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tvTRZJ-4EyI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tvTRZJ-4EyI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tvTRZJ-4EyI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-03-30T23:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8MzCWMDfBkeiQ_PcIdY0Zrb2YIs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4wZytWFm7x0"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-13T08:00:00Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - God Is Gangsta",
+        "description": "To Pimp A Butterfly album out now iTunes: http://smarturl.it/ToPimpAButterfly Target: http://smarturl.it/ToPimpAButterflyTG Google ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4wZytWFm7x0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4wZytWFm7x0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4wZytWFm7x0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-13T08:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bK_wJLUUIcyqBCRtV2agOMkTKfQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "drV0QatqbRU"
+      },
+      "snippet": {
+        "publishedAt": "2015-10-28T19:30:01Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - These Walls (Explicit) ft. Bilal, Anna Wise, Thundercat",
+        "description": "To Pimp A Butterfly album out now iTunes: http://smarturl.it/ToPimpAButterfly Target: http://smarturl.it/ToPimpAButterflyTG Google ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/drV0QatqbRU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/drV0QatqbRU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/drV0QatqbRU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-10-28T19:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_eKXTZIeBRbBma3WkLLArCtPFmU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_ZTYgq4EoRo"
+      },
+      "snippet": {
+        "publishedAt": "2015-07-31T21:00:01Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - For Free?",
+        "description": "To Pimp A Butterfly album out now iTunes: http://smarturl.it/ToPimpAButterfly Target: http://smarturl.it/ToPimpAButterflyTG Google ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_ZTYgq4EoRo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_ZTYgq4EoRo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_ZTYgq4EoRo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-07-31T21:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zh9jNTp0_Cu69W6AJsAE-j-J-FU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Z-48u_uWMHY"
+      },
+      "snippet": {
+        "publishedAt": "2015-06-30T21:00:01Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - Alright (Official Music Video)",
+        "description": "Kendrick Lamar's official music video for \"Alright\" from the the album, To Pimp A Butterfly. To Pimp A Butterfly album out now ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z-48u_uWMHY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z-48u_uWMHY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z-48u_uWMHY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-06-30T21:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BMgCwUONYfqznAQSK_JeB3eca0E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BTvV9JyNaS8"
+      },
+      "snippet": {
+        "publishedAt": "2015-05-28T23:00:01Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - These Walls (Live on Ellen) ft. Bilal, Anna Wise, Thundercat",
+        "description": "To Pimp A Butterfly album out now iTunes: http://smarturl.it/ToPimpAButterfly Target: http://smarturl.it/ToPimpAButterflyTG Google ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BTvV9JyNaS8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BTvV9JyNaS8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BTvV9JyNaS8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-05-28T23:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AXQOmi2xu8pBs77m5Pxaoh2SjNo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hRK7PVJFbS8"
+      },
+      "snippet": {
+        "publishedAt": "2015-04-02T01:00:00Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - King Kunta",
+        "description": "To Pimp A Butterfly album out now iTunes: http://smarturl.it/ToPimpAButterfly Target: http://smarturl.it/ToPimpAButterflyTG Google ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hRK7PVJFbS8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hRK7PVJFbS8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hRK7PVJFbS8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-04-02T01:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cEik-zHYQOspNRYQhr4luev7bCo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8aShfolR6w8"
+      },
+      "snippet": {
+        "publishedAt": "2014-11-04T16:55:00Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - i (Official Video)",
+        "description": "Out now on iTunes: http://smarturl.it/iKL Google Play: http://smarturl.it/iKLgp Amazon: http://smarturl.it/iKLamz.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8aShfolR6w8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8aShfolR6w8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8aShfolR6w8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-11-04T16:55:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "msY09s6Q0M8Nu_G0LisEW6O_4Ok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "donS3zZZTu8"
+      },
+      "snippet": {
+        "publishedAt": "2014-10-10T23:00:02Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - i (Lyric Video)",
+        "description": "single available now: http://smarturl.it/iKL Director: Christian San Jose Producer: Top Dawg Entertainment Pro Co: TDE Best of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/donS3zZZTu8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/donS3zZZTu8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/donS3zZZTu8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-10-10T23:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tO5NN5FQPjK6Xpv4RR1ePigsYdw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jltN3fLFmTQ"
+      },
+      "snippet": {
+        "publishedAt": "2014-09-24T01:00:02Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Kendrick Lamar - i (Audio)",
+        "description": "Kendrick Lamar - i (Audio) Available now http://smarturl.it/iKL Best of Kendrick Lamar: https://goo.gl/PTr3FF Subscribe here: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jltN3fLFmTQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jltN3fLFmTQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jltN3fLFmTQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-09-24T01:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZbIyv-lDfgPti7VKzncfEx1TdYc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Kkoh_KUK3g4"
+      },
+      "snippet": {
+        "publishedAt": "2014-06-27T19:00:03Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Current West Coast Spotlight, East Coast/West Coast beef, and Why He Had To Go Back and...",
+        "description": "Best of Kendrick Lamar: https://goo.gl/PTr3FF Subscribe here: https://goo.gl/XGVyCd Music Bed Produced By: Slot-A Introduction ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Kkoh_KUK3g4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Kkoh_KUK3g4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Kkoh_KUK3g4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-06-27T19:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gOtDY8RLmUFzicQZygD53xNBrjE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iPLErPKE8yQ"
+      },
+      "snippet": {
+        "publishedAt": "2014-06-27T19:00:04Z",
+        "channelId": "UCoYfzC2zMlc9M-Odgaf6OSg",
+        "title": "Chicago, Compton, Street Violence Glorification, and Interscope Deal (247HH Exclusive)",
+        "description": "Best of Kendrick Lamar: https://goo.gl/PTr3FF Subscribe here: https://goo.gl/XGVyCd Music Bed Produced By: Rashid Hadee ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iPLErPKE8yQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iPLErPKE8yQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iPLErPKE8yQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KendrickLamarVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-06-27T19:00:04Z"
+      }
+    }
+  ]
+}
