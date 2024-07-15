@@ -1,17 +1,11 @@
-import axios from "axios";
-export class Youtube {
-  constructor() {
-    this.apiClient = axios.create({
-      baseURL: process.env.REACT_APP_YOUTUBE_BASE_URL,
-      params: {
-        key: process.env.REACT_APP_YOUTUBE_API_KEY,
-      },
-    });
+export default class Youtube {
+  constructor(apiClient) {
+    this.apiClient = apiClient;
   }
+
   async search(keyword) {
     return keyword ? this.#ListByKeyword(keyword) : this.#HotTrend();
   }
-
   async #ListByKeyword(keyword) {
     const response = await this.apiClient.get("search", {
       params: {
