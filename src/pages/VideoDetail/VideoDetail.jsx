@@ -8,27 +8,26 @@ export default function VideoDetail() {
   } = useLocation();
   const { title, channelId, channelTitle, description } = video.snippet;
   return (
-    <>
+    <section>
+      <article>
+        {video.id}
+        <iframe
+          id="player"
+          type="text/html"
+          width="100%"
+          height="640"
+          src={`http://www.youtube.com/embed/${video.id}`}
+          style={{ border: "none" }}
+        ></iframe>
+        <div>
+          <h2>{title}</h2>
+          <ChannelInfo id={channelId} name={channelTitle} />
+          <pre>{description}</pre>
+        </div>
+      </article>
       <section>
-        <article>
-          <iframe
-            id="player"
-            type="text/html"
-            width="100%"
-            height="640"
-            src={`http://www.youtube.com/embed/${video.id}`}
-            style={{ border: "none" }}
-          ></iframe>
-          <div>
-            <h2>{title}</h2>
-            <ChannelInfo id={channelId} name={channelTitle} />
-            <pre>{description}</pre>
-          </div>
-        </article>
-        <section>
-          <ChannelPlayList channelId={channelId} />
-        </section>
+        <ChannelPlayList channelId={channelId} />
       </section>
-    </>
+    </section>
   );
 }

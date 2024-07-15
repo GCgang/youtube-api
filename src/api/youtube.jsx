@@ -7,6 +7,15 @@ export default class Youtube {
     return keyword ? this.#ListByKeyword(keyword) : this.#HotTrend();
   }
 
+  async channelImageURL(id) {
+    const response = await this.apiClient.channels({
+      params: {
+        part: "snippet",
+        id,
+      },
+    });
+    return response.data.items[0].snippet.thumbnails.default.url;
+  }
   async searchByChannelId(channelId) {
     const response = await this.apiClient.playlist({
       params: {
