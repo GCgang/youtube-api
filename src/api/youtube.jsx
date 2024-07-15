@@ -7,7 +7,7 @@ export default class Youtube {
     return keyword ? this.#ListByKeyword(keyword) : this.#HotTrend();
   }
   async #ListByKeyword(keyword) {
-    const response = await this.apiClient.get("search", {
+    const response = await this.apiClient.search({
       params: {
         part: "snippet",
         maxResults: 25,
@@ -20,7 +20,7 @@ export default class Youtube {
     }));
   }
   async #HotTrend() {
-    const response = await this.apiClient.get("videos", {
+    const response = await this.apiClient.videos({
       params: {
         part: "snippet",
         chart: "mostPopular",
