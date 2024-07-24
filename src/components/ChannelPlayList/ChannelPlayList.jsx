@@ -1,6 +1,6 @@
-import { useYoutubeApi } from "../../context/YoutubeApiContext";
-import { useQuery } from "@tanstack/react-query";
-import VideoCard from "../../components/VideoCard/VideoCard";
+import { useYoutubeApi } from '../../context/YoutubeApiContext';
+import { useQuery } from '@tanstack/react-query';
+import VideoCard from '../../components/VideoCard/VideoCard';
 export default function ChannelPlayList({ channelId }) {
   const { youtube } = useYoutubeApi();
   const {
@@ -8,7 +8,7 @@ export default function ChannelPlayList({ channelId }) {
     error,
     data: videos,
   } = useQuery({
-    queryKey: ["playlist", channelId],
+    queryKey: ['playlist', channelId],
     queryFn: () => {
       return youtube.searchByChannelId(channelId);
     },
@@ -17,9 +17,9 @@ export default function ChannelPlayList({ channelId }) {
     <>
       {isLoading && <div>Loading...</div>}
       {error && <div>Error...</div>}
-      <ul>
+      <ul className='ml-2'>
         {videos?.map((video) => (
-          <VideoCard key={video.id} video={video} />
+          <VideoCard key={video.id} video={video} type='list' />
         ))}
       </ul>
     </>
