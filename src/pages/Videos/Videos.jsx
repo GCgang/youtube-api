@@ -14,6 +14,7 @@ export default function Home() {
     queryFn: () => {
       return youtube.search(keyword);
     },
+    staleTime: 1000 * 60 * 1,
   });
 
   return (
