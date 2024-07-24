@@ -1,6 +1,6 @@
-import { useLocation } from "react-router-dom";
-import ChannelPlayList from "../../components/ChannelPlayList/ChannelPlayList";
-import ChannelInfo from "../../components/ChannelInfo/ChannelInfo";
+import { useLocation } from 'react-router-dom';
+import ChannelPlayList from '../../components/ChannelPlayList/ChannelPlayList';
+import ChannelInfo from '../../components/ChannelInfo/ChannelInfo';
 
 export default function VideoDetail() {
   const {
@@ -17,7 +17,8 @@ export default function VideoDetail() {
           width="100%"
           height="640"
           src={`http://www.youtube.com/embed/${video.id}`}
-          style={{ border: "none" }}
+          style={{ border: 'none' }}
+          title={title}
         ></iframe>
         <div>
           <h2>{title}</h2>
