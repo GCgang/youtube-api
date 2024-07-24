@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { formatAgo } from "../../utils/date";
+import { useNavigate } from 'react-router-dom';
+import { formatAgo } from '../../utils/date';
 export default function VideoCard({ video }) {
   const { title, channelTitle, publishedAt, thumbnails } = video.snippet;
   const navigate = useNavigate();
@@ -10,10 +10,10 @@ export default function VideoCard({ video }) {
         navigate(`/videos/watch/${video.id}`, { state: { video } })
       }
     >
-      <img src={thumbnails.default.url} alt="thumbnails" />
-      <h3>{title}</h3>
-      <p>{channelTitle}</p>
-      <p>{formatAgo(publishedAt)}</p>
+      <img className='w-full' src={thumbnails.medium.url} alt='thumbnails' />
+      <p className='font-semibold my-2 line-clamp-2'>{title}</p>
+      <p className='text-sm opacity-80'>{channelTitle}</p>
+      <p className='text-sm opacity-80'>{formatAgo(publishedAt)}</p>
     </li>
   );
 }
