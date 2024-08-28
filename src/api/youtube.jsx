@@ -10,29 +10,45 @@ export default class Youtube {
   async channelImageURL(id) {
     const response = await this.apiClient.channels({
       params: {
-        part: "snippet",
+        part: 'snippet',
         id,
       },
     });
     return response.data.items[0].snippet.thumbnails.default.url;
   }
+
   async searchByChannelId(channelId) {
     const response = await this.apiClient.playlist({
       params: {
-        part: "snippet",
+        part: 'snippet',
         channelId,
         maxResults: 25,
-        order: "date",
-        type: "video",
+        order: 'date',
+        type: 'video',
       },
     });
     return response.data.items;
   }
 
+  async getComments(videoId) {
+    const response = await this.apiClient.comments({
+      params: {
+        part: 'snippet',
+        videoId,
+        maxResults: 15,
+      },
+    });
+
+    return response.data.items.map((item) => ({
+      ...item.snippet.topLevelComment.snippet,
+      id: item.id,
+    }));
+  }
+
   async #ListByKeyword(keyword) {
     const response = await this.apiClient.search({
       params: {
-        part: "snippet",
+        part: 'snippet',
         maxResults: 25,
         q: keyword,
       },
@@ -42,11 +58,12 @@ export default class Youtube {
       id: item.id.videoId,
     }));
   }
+
   async #HotTrend() {
     const response = await this.apiClient.videos({
       params: {
-        part: "snippet",
-        chart: "mostPopular",
+        part: 'snippet',
+        chart: 'mostPopular',
         maxResults: 25,
       },
     });

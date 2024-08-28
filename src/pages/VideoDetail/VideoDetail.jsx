@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import ChannelPlayList from '../../components/ChannelPlayList/ChannelPlayList';
 import ChannelInfo from '../../components/ChannelInfo/ChannelInfo';
+import Comments from '../../components/Comments';
 
 export default function VideoDetail() {
   const {
@@ -25,6 +26,9 @@ export default function VideoDetail() {
           <h2 className='text-xl font-bold'>{title}</h2>
           <ChannelInfo id={channelId} name={channelTitle} />
           <pre className='whitespace-pre-wrap'>{description}</pre>
+        </div>
+        <div className='p-8'>
+          <Comments id={video.id} />
         </div>
       </article>
       <section className='basis-2/6'>
