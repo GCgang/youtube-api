@@ -1,4 +1,4 @@
-import { useYoutubeApi } from '../../context/YoutubeApiContext';
+import { useYoutubeApi } from '../context/YoutubeApiContext';
 import { useQuery } from '@tanstack/react-query';
 export default function ChannelInfo({ id, name }) {
   const { youtube } = useYoutubeApi();

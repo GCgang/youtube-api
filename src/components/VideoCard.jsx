@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { formatAgo } from '../../utils/date';
+import { formatAgo } from '../utils/date';
 export default function VideoCard({ video, type }) {
   const { title, channelTitle, publishedAt, thumbnails } = video.snippet;
   const navigate = useNavigate();

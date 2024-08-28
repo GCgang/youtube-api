@@ -1,6 +1,6 @@
-import { useYoutubeApi } from '../../context/YoutubeApiContext';
+import { useYoutubeApi } from '../context/YoutubeApiContext';
 import { useQuery } from '@tanstack/react-query';
-import VideoCard from '../../components/VideoCard/VideoCard';
+import VideoCard from './VideoCard';
 export default function ChannelPlayList({ channelId }) {
   const { youtube } = useYoutubeApi();
   const {

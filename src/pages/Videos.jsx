@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
-import VideoCard from '../../components/VideoCard/VideoCard';
-import { useYoutubeApi } from '../../context/YoutubeApiContext';
+import VideoCard from '../components/VideoCard';
+import { useYoutubeApi } from '../context/YoutubeApiContext';
 export default function Home() {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();

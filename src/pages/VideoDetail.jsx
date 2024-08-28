@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
-import ChannelPlayList from '../../components/ChannelPlayList/ChannelPlayList';
-import ChannelInfo from '../../components/ChannelInfo/ChannelInfo';
-import Comments from '../../components/Comments';
+import ChannelPlayList from '../components/ChannelPlayList';
+import ChannelInfo from '../components/ChannelInfo';
+import Comments from '../components/Comments';
 
 export default function VideoDetail() {
   const {

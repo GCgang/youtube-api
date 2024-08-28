@@ -14,6 +14,7 @@ export default class Youtube {
         id,
       },
     });
+
     return response.data.items[0].snippet.thumbnails.default.url;
   }
 
@@ -27,6 +28,7 @@ export default class Youtube {
         type: 'video',
       },
     });
+
     return response.data.items;
   }
 
@@ -39,7 +41,6 @@ export default class Youtube {
       },
     });
 
-    console.log(response);
     return response.data.items.map((item) => ({
       ...item.snippet.topLevelComment.snippet,
       id: item.id,
@@ -54,6 +55,7 @@ export default class Youtube {
         q: keyword,
       },
     });
+
     return response.data.items.map((item) => ({
       ...item,
       id: item.id.videoId,
@@ -68,6 +70,7 @@ export default class Youtube {
         maxResults: 25,
       },
     });
+
     return response.data.items;
   }
 }
