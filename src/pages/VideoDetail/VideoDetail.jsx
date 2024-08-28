@@ -5,7 +5,7 @@ import Comments from '../../components/Comments';
 
 export default function VideoDetail() {
   const {
-    state: { video },
+    state: { video, videoId },
   } = useLocation();
   const { title, channelId, channelTitle, description } = video.snippet;
   return (
@@ -16,7 +16,7 @@ export default function VideoDetail() {
           type='text/html'
           width='100%'
           height='640'
-          src={`https://www.youtube.com/embed/${video.id}`}
+          src={`https://www.youtube.com/embed/${videoId}`}
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           allowFullScreen
           style={{ border: 'none' }}
@@ -28,7 +28,7 @@ export default function VideoDetail() {
           <pre className='whitespace-pre-wrap'>{description}</pre>
         </div>
         <div className='p-8'>
-          <Comments id={video.id} />
+          <Comments id={videoId} />
         </div>
       </article>
       <section className='basis-2/6'>

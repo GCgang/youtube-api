@@ -20,7 +20,7 @@ export default function ChannelPlayList({ channelId }) {
       {error && <div>Error...</div>}
       <ul className='ml-2'>
         {videos?.map((video) => (
-          <VideoCard key={video.id} video={video} type='list' />
+          <VideoCard key={video.id.videoId} video={video} type='list' />
         ))}
       </ul>
     </>

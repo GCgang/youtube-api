@@ -16,7 +16,6 @@ export default function Home() {
     },
     staleTime: 1000 * 60 * 1,
   });
-
   return (
     <>
       {isLoading && <div>Loading...</div>}

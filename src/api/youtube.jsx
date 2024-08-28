@@ -18,7 +18,7 @@ export default class Youtube {
   }
 
   async searchByChannelId(channelId) {
-    const response = await this.apiClient.playlist({
+    const response = await this.apiClient.search({
       params: {
         part: 'snippet',
         channelId,
@@ -39,6 +39,7 @@ export default class Youtube {
       },
     });
 
+    console.log(response);
     return response.data.items.map((item) => ({
       ...item.snippet.topLevelComment.snippet,
       id: item.id,
